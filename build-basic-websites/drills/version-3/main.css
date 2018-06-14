@@ -1,0 +1,290 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* -------------- */
+
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
+}
+
+header {
+  background-color: #ffffff;
+}
+
+.site-content__header {
+  background-color: #424242;
+  color: #ffffff;
+  height: 90px;
+}
+
+.img-background {
+  background-image: url("https://www.standard.co.uk/s3fs-public/styles/story_large/public/thumbnails/image/2016/02/23/15/Fenchurch-at-Sky-Garden.jpg");
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.foot-a {
+  padding: 25px 30px;
+  background-color: #616161;
+}
+
+.foot-b {
+  background-color: #424242;
+  padding: 15px 30px;
+}
+
+.flex-justify, .flex-space, .flex-center {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-justify {
+  justify-content: space-between;
+}
+
+.flex-space {
+  justify-content: space-around;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.align-items {
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.font32 {
+  font-size: 32px
+}
+
+.font20 {
+  font-size: 20px;
+}
+
+.font18 {
+  font-size: 18px;
+}
+
+.font14 {
+  font-size: 14px;
+}
+
+.primary-color {
+  color: #424242;
+}
+
+.secondary-color {
+  color: #616161;
+}
+
+.accent-color {
+  color: #ad1457;
+}
+
+.accent-color2 {
+  color: #ffffff;
+}
+
+/* --------- header ------------------------- */
+
+.site-header {
+  height: 70px;
+  padding: 10px 30px;
+  align-items: center;
+}
+
+.site-header__title {
+  width: 50%;
+  font-size: 48px;
+}
+
+.site-nav--main {
+  width: 50%;
+}
+
+.site-nav--main a {
+  text-decoration: none;
+  padding: 15px 10px;
+  font-size: 20px;
+  color: inherit;
+}
+
+.site-nav--main a:hover {
+  background-color: rgba(0, 0, 0, 0.37);
+  color: rgb(255, 255, 255);
+  padding: 15px 10px;
+}
+
+/* --------- main ------------------------- */
+
+.content-container {
+  background-color: rgb(66, 66, 66);
+  background-color: rgba(0, 0, 0, 0.60);
+  height: 300px;
+  width: 500px;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.site-cont {
+  padding-bottom: 25px;
+  margin: 0px 0px;
+}
+
+main p {
+  margin: 20px;
+}
+
+.site-content-button {
+  display: block;
+  margin-top: 25px;
+  padding: 20px 0;
+  border-radius: 5px;
+  background-color: white;
+  color: #424242;
+  text-align: center;
+  text-decoration: none;
+}
+
+.site-content-button:hover {
+  background-color: #ad1457;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+/*------------menu-page------------------*/
+
+.site-content__header-title_uppercased {}
+
+/* --------- footer ------------------------- */
+
+.site-footer {
+  color: #ffffff;
+}
+
+.footer-column p {
+  font-weight: lighter;
+}
+
+.footer-column h2 {
+  font-weight: bold;
+}
+
+.site-footer h2 {
+  margin-bottom: 10px;
+}
+
+.site-footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.site-nav--social a {
+  margin-left: 3px;
+  padding-left: 3px;
+}
+
+.site-nav--social a:hover {
+  cursor: pointer;
+}
+
+.footer-column {
+  width: 30%;
+}
+
+.footer-inst-pics {
+  padding-right: 10px;
+  height: 80px;
+}
+
+._hidden {
+  display: none;
+}
+
+/* Menu */
+
+.menu-background {
+  background-color: #FFF8E1;
+}
+
+.food-col {
+  width: 200px;
+  margin: 30px 15px;
+}
+
+.food-item-grid {
+  width: 600px;
+  padding-top: 60px;
+}
+
+.food-item__price {
+  float: right;
+  font-weight: normal;
+}
+
+.food-item__description {
+  margin: 20px 0;
+  color: #616161;
+}
+
+.food-item__title {
+  font-weight: bold;
+}
