@@ -1,0 +1,191 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*-----------------------------------------------------*/
+
+body {
+  width: 100%;
+  height: 100%;
+  box-sizing: content-box;
+}
+
+/*--header--*/
+
+.primary-color {
+  color: #424242;
+}
+
+.secondary-color {
+  color: #FAFAFA;
+}
+
+.accent-color {
+  color: #ff8f00;
+}
+
+.primary-font-family {
+  font-family: Roboto;
+  font-weight: 500;
+}
+
+.secondary-font-family {
+  font-family: Playfair;
+  font-size: 14px;
+}
+
+header {
+  background: #424242;
+  height: 100px;
+  width: 100%;
+}
+
+.hero, .info-block-container, .header-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+#title-headline {
+  float: left;
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+#headline {
+  margin-top: 3px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+#menu {
+  background: rgba(255, 143, 0, .50);
+  float: right;
+  display: flex;
+  flex-direction: row;
+  flex-basis: auto;
+  align-items: center;
+  margin-top: 9px;
+}
+
+.color:hover {
+  color: #424242;
+}
+
+.menu-buttons {
+  text-decoration: none;
+}
+
+.menu-item {
+  font-size: 20px;
+  display: inline-flex;
+  list-style: none;
+  padding: 10px;
+}
+
+.content-width {
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*---main-----*/
+
+main {
+  margin-top: 25px;
+  margin-bottom: 44px;
+}
+
+#hero-image1 {
+  width: 300px;
+}
+
+#hero-image2 {
+  width: 630px;
+  height: 300px;
+}
+
+.small-image-info {
+  float: left;
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.info-block {
+  margin-top: 25px;
+  width: 30%;
+}
+
+.subtitles {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.info-block-content {
+  margin-top: 10px;
+}
+
+.links-information {
+  margin-top: 3px;
+  float: right;
+  text-decoration: none;
+}
+
+/*---footer---*/
+
+footer {
+  background: #424242;
+  width: 100%;
+  height: 85px;
+}
+
+#footer-text {
+  padding-top: 25px;
+}
