@@ -1,4 +1,4 @@
-(https://github.com/belinda-galiano/projects/blob/master/api-drills/version-1/stranger-things.png)
+[logo]: https://github.com/belinda-galiano/projects/blob/master/api-drills/version-1/stranger-things.png
 # Stranger Things Telephone
 
 It is an app that shows some characters from Stranger Things and allows the user to send a character a message.
