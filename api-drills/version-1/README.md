@@ -1,4 +1,3 @@
-
 [logo](https://github.com/belinda-galiano/projects/blob/master/api-drills/version-1/stranger-things.png)
 
 # Stranger Things Telephone
