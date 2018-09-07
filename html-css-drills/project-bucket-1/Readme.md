@@ -4,7 +4,7 @@
 
 It is a website about learning to learn and goal setting
  
- *I am a current student at Galvanize in the Web Development Immersive course. These are the projects I have completed.*
+ *I am a current student at Galvanize in the Web Development Immersive course. This is the project I have completed.*
  
  **email** belindagalianomolina@gmail.com
  
