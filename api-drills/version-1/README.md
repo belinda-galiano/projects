@@ -1,7 +1,6 @@
 # Stranger Things Telephone
 
-- Build websites with HTML, CSS, and JavaScript.
-- Make pages dynamic with APIs.
+It is an app that shows some characters from Stranger Things and allows the user to send a character a message.
  
  *I am a current student at Galvanize in the Web Development Immersive course. These are the projects I have completed.*
  
