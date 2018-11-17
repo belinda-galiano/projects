@@ -5,8 +5,10 @@
 In this website, you can create your own pixel art.
 You can choose colors from a palette and then paint pixel art.
 
- *I am a current student at Galvanize in the Web Development Immersive course. This is a project I have completed.*
- 
- **email** belindagalianomolina@gmail.com
- 
- © Belinda Galiano,2018.
+This is a project I have completed as a student in the Web Development Immersive Course at Galvanize.
+
+email belindagalianomolina@gmail.com
+
+[LinkedIn](https://www.linkedin.com/in/belinda-galiano/)
+
+© Belinda Galiano,2018.
