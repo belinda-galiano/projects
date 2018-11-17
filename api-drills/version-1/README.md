@@ -2,10 +2,12 @@
 
 # Stranger Things Telephone
 
-It is an app that shows some characters from Stranger Things and allows the user to send a character a message.
+It is an app that shows some characters from Stranger Things and allows the user to send a message to a character.
  
- *I am a current student at Galvanize in the Web Development Immersive course. These are the projects I have completed.*
- 
- **email** belindagalianomolina@gmail.com
- 
- © Belinda Galiano,2018.
+This is a project I have completed as a student in the Web Development Immersive Course at Galvanize.
+
+email belindagalianomolina@gmail.com
+
+[LinkedIn](https://www.linkedin.com/in/belinda-galiano/)
+
+© Belinda Galiano,2018.
